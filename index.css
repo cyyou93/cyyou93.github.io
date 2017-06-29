@@ -1,0 +1,144 @@
+body {
+  background: #95DEE8;
+  font-size: 20px;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+}
+
+ Fork
+ Settings
+ Change View
+
+
+
+User Gravatar
+HTML
+ 
+
+ 
+1
+<html>
+2
+  <head>
+3
+    <link rel="stylesheet" href="index.css" />
+4
+    <title>My Website</title>
+5
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+6
+    <meta property="og:locale" content="en_US">
+7
+    <meta property="og:type" content="website">
+8
+    <meta property="og:title" content="My Portfolio">
+9
+    <meta property="og:description" content="Built with Next Academy">
+10
+    <meta property="og:site_name" content="My Portfolio">
+11
+    <meta property="og:image" content="https://www.nextacademy.com/img/share/nextacademy-generic.jpg">
+12
+  </head>
+13
+  <body>
+14
+    <div class="container">
+15
+      <div class="small-container" id="about">
+16
+        <h1>Hello World.</h1>
+17
+        <p>This is my first website.</p>
+18
+      </div>
+CSS
+ 
+
+ 
+1
+body {
+2
+  background: #95DEE8;
+3
+  font-size: 20px;
+4
+}
+5
+​
+6
+.container {
+7
+  margin: 20px;
+8
+  padding: 20px;
+9
+}
+10
+​
+11
+.small-container {
+12
+  min-height: 50vh;
+13
+  padding-top: 30vh;
+14
+  text-align: center;
+15
+  list-style-position: inside;
+16
+}
+17
+​
+18
+#navbar {
+19
+  position: fixed;
+20
+  width: 90vw;
+21
+}
+
+#navbar .nav-links {
+  text-align: right;
+}
+
+#navbar .nav-buttons {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+#navbar .nav-buttons:hover {
+  color: white;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact .same-row {
+  display: block;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
